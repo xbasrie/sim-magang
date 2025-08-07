@@ -2,7 +2,7 @@ import axios from "axios";
 import { useAuthStore } from "./stores/AuthStore";
 
 export const customAPI = axios.create({
-    baseURL: 'http://127.0.0.1:8000/api/v1'
+    baseURL: 'http://magang.upkemenagsby.my.id/api/v1'
 })
 
 customAPI.interceptors.response.use(
